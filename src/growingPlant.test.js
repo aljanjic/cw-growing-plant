@@ -8,4 +8,8 @@ describe('growingPlant', () => {
   it('10,9,4 should return 1', () => {
     expect(growingPlant(10,9,4 )).toBe(1);
   });
+
+  it('10,9,14 should return 5', () => {
+    expect(growingPlant(10,9,14 )).toBe(5);
+  });
 });
