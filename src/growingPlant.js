@@ -1,16 +1,20 @@
 function growingPlant(upSpeed, downSpeed, desiredHeight) {
 
   // Create dayCounter and currentHeight variable
+  let dayCounter = currentHeight = 0;
 
   // While loop that will increase dayCounter and currentHeight variable based on upSpeed and downSpeed inputes
-
-
-  // If desiredHeight >= currentHeight, break the loop
-
+  while(true){
+    dayCounter++;
+    currentHeight += upSpeed;
+    // If desiredHeight >= currentHeight, break the loop
+    if(currentHeight >= desiredHeight) break;
+    currentHeight -= downSpeed;
+  }
 
   // return the dayCounter
 
-  return 'growingPlant';
+  return dayCounter;
 }
 
 module.exports = growingPlant;

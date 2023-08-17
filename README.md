@@ -65,3 +65,7 @@ Input/Output
 - ✅ DONE
 
 ## Backlog
+
+
+- ⚠ '100,10,910 should return 10'
+- ⚠ '10,9,4 should return 1'
